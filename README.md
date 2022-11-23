@@ -1,2 +1,2 @@
 # Connect4
-# Connect4
+Making Connect 4 using DIME 
