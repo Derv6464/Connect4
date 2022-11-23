@@ -19,14 +19,15 @@ public class Native {
 		}
 	}
 	public static void insert(Long row, Long column,Long[][] arr,boolean turn){
-		int s;
+		Long s;
 		if(turn) {
-			s = 1;
+			s = 1l;
 		}
 		else {
-			s = 2;
+			s = 2l;
 		}
 		arr[row.intValue()][column.intValue()] = s;
+		turn = !turn;
 	}
 	public static boolean checkWin(boolean turn,Long[][] arr) {
 		if((horizontalWin(turn,arr))||(verticalWin(turn,arr))||(positiveDiagonalWin(turn,arr))||(negativeDiagonalWin(turn,arr))){

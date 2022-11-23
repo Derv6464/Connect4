@@ -15,3 +15,4 @@ sib checkWin : info.scce.dime.app.demo.Native#checkWin
   arr: [integer]
   turn: boolean
   -> success  
+  -> fail
