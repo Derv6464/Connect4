@@ -7,11 +7,11 @@ sib SayHello : info.scce.dime.app.demo.Native#sayHello
 sib insert : info.scce.dime.app.demo.Native#insert
   row : integer
   column: integer
-  arr: integer[][]
+  arr: [integer]
   turn: boolean
   -> success  
   
 sib checkWin : info.scce.dime.app.demo.Native#checkWin
-  arr: integer[][]
+  arr: [integer]
   turn: boolean
   -> success  

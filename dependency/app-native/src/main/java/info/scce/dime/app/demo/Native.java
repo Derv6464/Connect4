@@ -11,32 +11,32 @@ public class Native {
 		System.out.println("---------------------");
 	}
 	public static void grid() {
-		long[][] arr = new long[6][7];	
+		Long[][] arr = new Long[6][7];	
 		for(int i = 0;i<arr.length;i++) {
 			for(int j = 0;j<arr.length;j++) {
-				arr[i][j] = 0;
+				arr[i][j] = 0l;
 			}
 		}
 	}
-	public static void insert(int row, int column,long[][] arr,boolean turn){
-		long s;
+	public static void insert(Long row, Long column,Long[][] arr,boolean turn){
+		int s;
 		if(turn) {
 			s = 1;
 		}
 		else {
 			s = 2;
 		}
-		arr[row][column] = s;
+		arr[row.intValue()][column.intValue()] = s;
 	}
-	public static boolean checkWin(boolean turn,long[][] arr) {
+	public static boolean checkWin(boolean turn,Long[][] arr) {
 		if((horizontalWin(turn,arr))||(verticalWin(turn,arr))||(positiveDiagonalWin(turn,arr))||(negativeDiagonalWin(turn,arr))){
 			return true;
 		}else {
 			return false;
 		}
 	}
-	public static boolean horizontalWin(boolean turn, long[][]arr) {
-		long s;
+	public static boolean horizontalWin(boolean turn, Long[][]arr) {
+		int s;
 		if(turn) {
 			s = 1;
 		}
@@ -52,8 +52,8 @@ public class Native {
 		}return false;
 		
 	}
-	public static boolean verticalWin(boolean turn, long[][]arr) {
-		long s;
+	public static boolean verticalWin(boolean turn, Long[][]arr) {
+		int s;
 		if(turn) {
 			s = 1;
 		}
@@ -69,8 +69,8 @@ public class Native {
 		}return false;
 		
 	}
-	public static boolean positiveDiagonalWin(boolean turn, long[][]arr) {
-		long s;
+	public static boolean positiveDiagonalWin(boolean turn, Long[][]arr) {
+		int s;
 		if(turn) {
 			s = 1;
 		}
@@ -86,8 +86,8 @@ public class Native {
 		}return false;
 		
 	}
-	public static boolean negativeDiagonalWin(boolean turn, long[][]arr) {
-		long s;
+	public static boolean negativeDiagonalWin(boolean turn, Long[][]arr) {
+		int s;
 		if(turn) {
 			s = 1;
 		}
