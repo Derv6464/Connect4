@@ -1,0 +1,170 @@
+GUI _pxpDgWtSEe2_tZffVHfitw {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "WinScreen"
+  DataContext _pxyNcWtSEe2_tZffVHfitw at 10,10 size 180,141 {
+  	dfViewWorkaround true
+  	ComplexVariable _eK27sWtUEe2_tZffVHfitw at 10,60 size 160,51 {
+  		expanded true
+  		isLive false
+  		libraryComponentUID "_2rjVMWtSEe2_tZffVHfitw"
+  		isInput true
+  		name "winner"
+  		dfViewWorkaround true
+  		isList false
+  		PrimitiveAttribute _jQcVcGtUEe2_tZffVHfitw at 10,23 size 140,25 {
+  			libraryComponentUID "_29R-YWtSEe2_tZffVHfitw"
+  			isLive false
+  		}
+  		-IF-> _glVaEGtUEe2_tZffVHfitw  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _8M3D0WthEe2_tZffVHfitw
+  			negate false
+  		}
+  		
+  		-IF-> _AMkaoWtiEe2_tZffVHfitw  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _gMXYEWtiEe2_tZffVHfitw
+  			negate true
+  		}
+  		
+  		-AddComplexToSubmission-> _iW1rkWtiEe2_tZffVHfitw  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _liquYGtiEe2_tZffVHfitw
+  		}
+  	}
+  }
+  
+  Template _px130WtSEe2_tZffVHfitw at 240,10 size 270,370 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _px2e4GtSEe2_tZffVHfitw {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Row _px3tAGtSEe2_tZffVHfitw at 10,30 size 250,240 {
+  		generalStyle GeneralStyling _px9zoGtSEe2_tZffVHfitw {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _px4UEWtSEe2_tZffVHfitw at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _px5iMWtSEe2_tZffVHfitw at 2,10 size 14,7 {
+  		}
+  		
+  		Col _px6wUWtSEe2_tZffVHfitw at 10,30 size 220,190 {
+  			wideness Full
+  			layout Layout _px8lgWtSEe2_tZffVHfitw {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _px8lgGtSEe2_tZffVHfitw {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _px7XYWtSEe2_tZffVHfitw at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _px7-cWtSEe2_tZffVHfitw at 10,2 size 7,14 {
+  			}
+  			
+  			Text _glVaEGtUEe2_tZffVHfitw at 10,30 size 200,60 {
+  				content [ StaticContent _glnG4GtUEe2_tZffVHfitw {
+  						renderMarkdown false
+  						maxChars 0
+  						html false
+  						rawContent "Congratulations {{winner.winningPlayer}}"
+  						styling TextStyling _glpjIGtUEe2_tZffVHfitw {
+  								small false
+  								highlight false
+  								deleted false
+  								underline false
+  								bold false
+  								alignment Left
+  								italic false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling _gll4wGtUEe2_tZffVHfitw {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _gljcgWtUEe2_tZffVHfitw at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _glkDkWtUEe2_tZffVHfitw at 2,10 size 14,7 {
+  				}
+  			}
+  			
+  			Text _AMkaoWtiEe2_tZffVHfitw at 10,100 size 200,60 {
+  				content [ StaticContent _AMoFAGtiEe2_tZffVHfitw {
+  						renderMarkdown false
+  						maxChars 0
+  						html false
+  						rawContent "Draw Game"
+  						styling TextStyling _AMosEGtiEe2_tZffVHfitw {
+  								small false
+  								highlight false
+  								deleted false
+  								underline false
+  								bold false
+  								alignment Left
+  								italic false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling _AMnd8mtiEe2_tZffVHfitw {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _AMm24WtiEe2_tZffVHfitw at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _AMnd8WtiEe2_tZffVHfitw at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  	}
+  	
+  	Button _iW1rkWtiEe2_tZffVHfitw at 10,280 size 200,60 {
+  		label "Play Again"
+  		styling ButtonStyling _iXB40GtiEe2_tZffVHfitw {
+  				fullWidth false
+  				size Default
+  				disabled false
+  				color Default
+  			}
+  		options ButtonOptions _iXVa0GtiEe2_tZffVHfitw {
+  				isLink false
+  				submitsForm true
+  			}
+  		disabled false
+  		icon Icon _iW6kEGtiEe2_tZffVHfitw {
+  				postIcon None
+  				preIcon None
+  			}
+  		generalStyle GeneralStyling _iW5V8GtiEe2_tZffVHfitw {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _iW4H0WtiEe2_tZffVHfitw at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _iW4u4WtiEe2_tZffVHfitw at 2,10 size 14,7 {
+  		}
+  	}
+  }
+}
