@@ -1,6 +1,6 @@
 Data _tH3fEMwMEeWZVvvwxpYu8A {
   modelName "Data"
-  ConcreteType _dh6BYMwNEeWZVvvwxpYu8A at 90,60 size 111,55 {
+  ConcreteType _dh6BYMwNEeWZVvvwxpYu8A at -74,63 size 111,55 {
   	name "ConcreteUser"
   	UserAttribute _fPY24MwNEeWZVvvwxpYu8A at 5,32 size 101,18 {
   		oppositeAttribute _fOkXgMwNEeWZVvvwxpYu8A
@@ -10,7 +10,7 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   	}
   }
   
-  UserType _UdYs4MwNEeWZVvvwxpYu8A at 74,190 size 143,145 {
+  UserType _UdYs4MwNEeWZVvvwxpYu8A at -90,187 size 143,145 {
   	name "BaseUser"
   	UserAttribute _fOkXgMwNEeWZVvvwxpYu8A at 5,32 size 133,18 {
   		oppositeAttribute _fPY24MwNEeWZVvvwxpYu8A
@@ -56,11 +56,327 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   	}
   }
   
-  ConcreteType _2rjVMWtSEe2_tZffVHfitw at 380,69 size 140,55 {
+  ConcreteType _2rjVMWtSEe2_tZffVHfitw at -88,347 size 140,55 {
   	name "Winner"
   	PrimitiveAttribute _29R-YWtSEe2_tZffVHfitw at 5,32 size 130,18 {
   		dataType Text
   		name "winningPlayer"
+  		isList false
+  	}
+  }
+  
+  ConcreteType _D3GKMWvnEe2HBfIGZDNJTg at 320,200 size 140,307 {
+  	name "Rows"
+  	PrimitiveAttribute _CS5XEGvoEe2HBfIGZDNJTg at 5,176 size 130,18 {
+  		dataType Text
+  		name "row"
+  		isList true
+  	}
+  	
+  	ComplexAttribute _D9MDwWvqEe2HBfIGZDNJTg at 5,194 size 130,18 {
+  		dataType _SBao8GvpEe2HBfIGZDNJTg
+  		name "row0"
+  		isList false
+  	}
+  	
+  	ComplexAttribute _gykToWvqEe2HBfIGZDNJTg at 5,212 size 130,18 {
+  		dataType _SR7xMWvpEe2HBfIGZDNJTg
+  		name "row1"
+  		isList false
+  	}
+  	
+  	ComplexAttribute _habk4WvqEe2HBfIGZDNJTg at 5,230 size 130,18 {
+  		dataType _SeXDoWvpEe2HBfIGZDNJTg
+  		name "row2"
+  		isList false
+  	}
+  	
+  	ComplexAttribute _h1nsEWvqEe2HBfIGZDNJTg at 5,248 size 130,18 {
+  		dataType _Ss9gUWvpEe2HBfIGZDNJTg
+  		name "row3"
+  		isList false
+  	}
+  	
+  	ComplexAttribute _ikPFkWvqEe2HBfIGZDNJTg at 5,266 size 130,18 {
+  		dataType _TIlsYWvpEe2HBfIGZDNJTg
+  		name "row4"
+  		isList false
+  	}
+  	
+  	ComplexAttribute _jHzssWvqEe2HBfIGZDNJTg at 5,284 size 130,18 {
+  		dataType _S7tuAWvpEe2HBfIGZDNJTg
+  		name "row5"
+  		isList false
+  	}
+  	
+  	ComplexAttribute _pTzfcWvrEe2HBfIGZDNJTg at 5,50 size 130,18 {
+  		dataType _KGRscWvrEe2HBfIGZDNJTg
+  		name "column0"
+  		isList false
+  	}
+  	
+  	ComplexAttribute _rfsvQWvrEe2HBfIGZDNJTg at 5,68 size 130,18 {
+  		dataType _KenT8WvrEe2HBfIGZDNJTg
+  		name "column1"
+  		isList false
+  	}
+  	
+  	ComplexAttribute _tUgUwWvrEe2HBfIGZDNJTg at 5,86 size 130,18 {
+  		dataType _KxksMWvrEe2HBfIGZDNJTg
+  		name "column2"
+  		isList false
+  	}
+  	
+  	ComplexAttribute _vLGC8WvrEe2HBfIGZDNJTg at 5,104 size 130,18 {
+  		dataType _K_DHgWvrEe2HBfIGZDNJTg
+  		name "column3"
+  		isList false
+  	}
+  	
+  	ComplexAttribute _xcT3oWvrEe2HBfIGZDNJTg at 5,122 size 130,18 {
+  		dataType _L593oWvrEe2HBfIGZDNJTg
+  		name "column4"
+  		isList false
+  	}
+  	
+  	ComplexAttribute _zd8_QWvrEe2HBfIGZDNJTg at 5,140 size 130,18 {
+  		dataType _LNzVMWvrEe2HBfIGZDNJTg
+  		name "column5"
+  		isList false
+  	}
+  	
+  	ComplexAttribute _0y_fkWvrEe2HBfIGZDNJTg at 5,158 size 130,18 {
+  		dataType _LZnjoWvrEe2HBfIGZDNJTg
+  		name "column6"
+  		isList false
+  	}
+  	
+  	ComplexAttribute _7VC3UWvrEe2HBfIGZDNJTg at 5,32 size 130,18 {
+  		dataType _EPLTAWvnEe2HBfIGZDNJTg
+  		name "cell"
+  		isList false
+  	}
+  	-Association-> _SBao8GvpEe2HBfIGZDNJTg via (390,-293) decorate "Text" at (0,0) decorate "" at (0,0) {
+  		id _D9JAcWvqEe2HBfIGZDNJTg
+  		isHidden false
+  		sourceAttr _D9MDwWvqEe2HBfIGZDNJTg
+  	}
+  	
+  	-Association-> _SR7xMWvpEe2HBfIGZDNJTg via (390,103) (390,-223) decorate "Text" at (0,0) decorate "" at (0,0) {
+  		id _gyfbIWvqEe2HBfIGZDNJTg
+  		isHidden false
+  		sourceAttr _gykToWvqEe2HBfIGZDNJTg
+  	}
+  	
+  	-Association-> _SeXDoWvpEe2HBfIGZDNJTg via (390,-153) decorate "Text" at (0,0) decorate "" at (0,0) {
+  		id _haYhkGvqEe2HBfIGZDNJTg
+  		isHidden false
+  		sourceAttr _habk4WvqEe2HBfIGZDNJTg
+  	}
+  	
+  	-Association-> _Ss9gUWvpEe2HBfIGZDNJTg via (390,-83) decorate "Text" at (0,0) decorate "" at (0,0) {
+  		id _h1izkWvqEe2HBfIGZDNJTg
+  		isHidden false
+  		sourceAttr _h1nsEWvqEe2HBfIGZDNJTg
+  	}
+  	
+  	-Association-> _TIlsYWvpEe2HBfIGZDNJTg via (390,-13) decorate "Text" at (0,0) decorate "" at (0,0) {
+  		id _ikNQYWvqEe2HBfIGZDNJTg
+  		isHidden false
+  		sourceAttr _ikPFkWvqEe2HBfIGZDNJTg
+  	}
+  	
+  	-Association-> _S7tuAWvpEe2HBfIGZDNJTg via (389,54) decorate "Text" at (0,0) decorate "" at (0,0) {
+  		id _jHxQcWvqEe2HBfIGZDNJTg
+  		isHidden false
+  		sourceAttr _jHzssWvqEe2HBfIGZDNJTg
+  	}
+  	
+  	-Association-> _KGRscWvrEe2HBfIGZDNJTg via (390,-293) decorate "Text" at (0,0) decorate "" at (0,0) {
+  		id _pTxDMWvrEe2HBfIGZDNJTg
+  		isHidden false
+  		sourceAttr _pTzfcWvrEe2HBfIGZDNJTg
+  	}
+  	
+  	-Association-> _KenT8WvrEe2HBfIGZDNJTg via (389,-223) decorate "Text" at (0,0) decorate "" at (0,0) {
+  		id _rfpE4WvrEe2HBfIGZDNJTg
+  		isHidden false
+  		sourceAttr _rfsvQWvrEe2HBfIGZDNJTg
+  	}
+  	
+  	-Association-> _KxksMWvrEe2HBfIGZDNJTg via (389,-153) decorate "Text" at (0,0) decorate "" at (0,0) {
+  		id _tUd4gWvrEe2HBfIGZDNJTg
+  		isHidden false
+  		sourceAttr _tUgUwWvrEe2HBfIGZDNJTg
+  	}
+  	
+  	-Association-> _K_DHgWvrEe2HBfIGZDNJTg via (390,-83) decorate "Text" at (0,0) decorate "" at (0,0) {
+  		id _vK7D0WvrEe2HBfIGZDNJTg
+  		isHidden false
+  		sourceAttr _vLGC8WvrEe2HBfIGZDNJTg
+  	}
+  	
+  	-Association-> _L593oWvrEe2HBfIGZDNJTg via (390,-13) decorate "Text" at (0,0) decorate "" at (0,0) {
+  		id _xcPmMWvrEe2HBfIGZDNJTg
+  		isHidden false
+  		sourceAttr _xcT3oWvrEe2HBfIGZDNJTg
+  	}
+  	
+  	-Association-> _LNzVMWvrEe2HBfIGZDNJTg via (390,55) decorate "Text" at (0,0) decorate "" at (0,0) {
+  		id _zd4t0WvrEe2HBfIGZDNJTg
+  		isHidden false
+  		sourceAttr _zd8_QWvrEe2HBfIGZDNJTg
+  	}
+  	
+  	-Association-> _LZnjoWvrEe2HBfIGZDNJTg via (389,122) decorate "Text" at (0,0) decorate "" at (0,0) {
+  		id _0y6nEWvrEe2HBfIGZDNJTg
+  		isHidden false
+  		sourceAttr _0y_fkWvrEe2HBfIGZDNJTg
+  	}
+  	
+  	-Association-> _EPLTAWvnEe2HBfIGZDNJTg  decorate "Text" at (0,0) decorate "" at (0,0) {
+  		id _7U6UcWvrEe2HBfIGZDNJTg
+  		isHidden false
+  		sourceAttr _7VC3UWvrEe2HBfIGZDNJTg
+  	}
+  }
+  
+  ConcreteType _EPLTAWvnEe2HBfIGZDNJTg at 510,320 size 140,55 {
+  	name "Cell"
+  	PrimitiveAttribute _EZVfIWvoEe2HBfIGZDNJTg at 5,32 size 130,18 {
+  		dataType Text
+  		name "column"
+  		isList true
+  	}
+  }
+  
+  ConcreteType _mPbP0WvoEe2HBfIGZDNJTg at 320,560 size 140,55 {
+  	name "Board"
+  	ComplexAttribute _pjY68WvoEe2HBfIGZDNJTg at 5,32 size 130,18 {
+  		dataType _D3GKMWvnEe2HBfIGZDNJTg
+  		name "rows"
+  		isList true
+  	}
+  	-Association-> _D3GKMWvnEe2HBfIGZDNJTg  decorate "Text" at (4,-16) decorate "" at (0,0) {
+  		id _pjQ_IWvoEe2HBfIGZDNJTg
+  		isHidden false
+  		sourceAttr _pjY68WvoEe2HBfIGZDNJTg
+  	}
+  }
+  
+  ConcreteType _SBao8GvpEe2HBfIGZDNJTg at 480,-320 size 140,55 {
+  	name "Row0"
+  	PrimitiveAttribute _YajVQWvpEe2HBfIGZDNJTg at 5,32 size 130,18 {
+  		dataType Integer
+  		name "row"
+  		isList false
+  	}
+  }
+  
+  ConcreteType _SR7xMWvpEe2HBfIGZDNJTg at 480,-250 size 140,55 {
+  	name "Row1"
+  	PrimitiveAttribute _br1f0WvpEe2HBfIGZDNJTg at 5,32 size 130,18 {
+  		dataType Integer
+  		name "row"
+  		isList false
+  	}
+  }
+  
+  ConcreteType _SeXDoWvpEe2HBfIGZDNJTg at 480,-180 size 140,55 {
+  	name "Row2"
+  	PrimitiveAttribute _fxP2AWvpEe2HBfIGZDNJTg at 5,32 size 130,18 {
+  		dataType Integer
+  		name "row"
+  		isList false
+  	}
+  }
+  
+  ConcreteType _Ss9gUWvpEe2HBfIGZDNJTg at 480,-110 size 140,55 {
+  	name "Row3"
+  	PrimitiveAttribute _ih1uUWvpEe2HBfIGZDNJTg at 5,32 size 130,18 {
+  		dataType Integer
+  		name "row"
+  		isList false
+  	}
+  }
+  
+  ConcreteType _S7tuAWvpEe2HBfIGZDNJTg at 480,27 size 140,55 {
+  	name "Row5"
+  	PrimitiveAttribute _moqZwWvpEe2HBfIGZDNJTg at 5,32 size 130,18 {
+  		dataType Integer
+  		name "row"
+  		isList false
+  	}
+  }
+  
+  ConcreteType _TIlsYWvpEe2HBfIGZDNJTg at 480,-40 size 140,55 {
+  	name "Row4"
+  	PrimitiveAttribute _kTEbYWvpEe2HBfIGZDNJTg at 5,32 size 130,18 {
+  		dataType Integer
+  		name "row"
+  		isList false
+  	}
+  }
+  
+  ConcreteType _KGRscWvrEe2HBfIGZDNJTg at 159,-320 size 140,55 {
+  	name "Column0"
+  	PrimitiveAttribute _MFTk8WvrEe2HBfIGZDNJTg at 5,32 size 130,18 {
+  		dataType Integer
+  		name "column"
+  		isList false
+  	}
+  }
+  
+  ConcreteType _KenT8WvrEe2HBfIGZDNJTg at 159,-250 size 140,55 {
+  	name "Column1"
+  	PrimitiveAttribute _aHCaUWvrEe2HBfIGZDNJTg at 5,32 size 130,18 {
+  		dataType Integer
+  		name "column"
+  		isList false
+  	}
+  }
+  
+  ConcreteType _KxksMWvrEe2HBfIGZDNJTg at 159,-180 size 140,55 {
+  	name "Column2"
+  	PrimitiveAttribute _bmRYcWvrEe2HBfIGZDNJTg at 5,32 size 130,18 {
+  		dataType Integer
+  		name "column"
+  		isList false
+  	}
+  }
+  
+  ConcreteType _K_DHgWvrEe2HBfIGZDNJTg at 159,-110 size 140,55 {
+  	name "Column3"
+  	PrimitiveAttribute _d0YOwWvrEe2HBfIGZDNJTg at 5,32 size 130,18 {
+  		dataType Integer
+  		name "column"
+  		isList false
+  	}
+  }
+  
+  ConcreteType _LNzVMWvrEe2HBfIGZDNJTg at 159,27 size 140,55 {
+  	name "Column5"
+  	PrimitiveAttribute _fASoQWvrEe2HBfIGZDNJTg at 5,32 size 130,18 {
+  		dataType Integer
+  		name "column"
+  		isList false
+  	}
+  }
+  
+  ConcreteType _LZnjoWvrEe2HBfIGZDNJTg at 159,95 size 140,55 {
+  	name "Column6"
+  	PrimitiveAttribute _iB6mMWvrEe2HBfIGZDNJTg at 5,32 size 130,18 {
+  		dataType Integer
+  		name "column"
+  		isList false
+  	}
+  }
+  
+  ConcreteType _L593oWvrEe2HBfIGZDNJTg at 159,-40 size 140,55 {
+  	name "Column4"
+  	PrimitiveAttribute _gsH38WvrEe2HBfIGZDNJTg at 5,32 size 130,18 {
+  		dataType Integer
+  		name "column"
   		isList false
   	}
   }

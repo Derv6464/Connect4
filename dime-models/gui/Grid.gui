@@ -4,8 +4,17 @@ GUI _sFHN4GtFEe2_tZffVHfitw {
   additionalJavaScript [  ]
   additionalStylesheets [  ]
   title "Grid"
-  DataContext _sHelYGtFEe2_tZffVHfitw at 10,10 size 180,130 {
+  DataContext _sHelYGtFEe2_tZffVHfitw at 10,10 size 180,751 {
   	dfViewWorkaround true
+  	ComplexVariable _yLy7MWvoEe2HBfIGZDNJTg at 10,50 size 160,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_D3GKMWvnEe2HBfIGZDNJTg"
+  		isInput false
+  		name "rows"
+  		dfViewWorkaround true
+  		isList true
+  	}
   }
   
   Template _sID0MGtFEe2_tZffVHfitw at 240,10 size 1650,1130 {
