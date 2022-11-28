@@ -4,7 +4,7 @@ Process _xCnpsWtFEe24R4KEeKcnxg {
   dataFlowView true
   processType Basic
   isStateful false
-  DataContext _xCtJQWtFEe24R4KEeKcnxg at 20,20 size 210,545 {
+  DataContext _xCtJQWtFEe24R4KEeKcnxg at 20,0 size 210,565 {
   	dfViewWorkaround true
   }
   
@@ -19,7 +19,7 @@ Process _xCnpsWtFEe24R4KEeKcnxg {
   	branchName "success"
   }
   
-  AtomicSIB _0KW2sWtFEe24R4KEeKcnxg at 490,41 size 120,144 {
+  AtomicSIB _0KW2sWtFEe24R4KEeKcnxg at 480,80 size 120,144 {
   	libraryComponentUID "app.demo.insert"
   	label "insert"
   	ignoredBranch [  ]
@@ -52,7 +52,7 @@ Process _xCnpsWtFEe24R4KEeKcnxg {
   	}
   }
   
-  Branch _0KzioWtFEe24R4KEeKcnxg at 700,100 size 120,25 {
+  Branch _0KzioWtFEe24R4KEeKcnxg at 470,260 size 120,25 {
   	name "success"
   	-ControlFlow-> _3Nf3kWtFEe24R4KEeKcnxg  decorate "" at (0,0) {
   		id _4DlyEWtFEe24R4KEeKcnxg
@@ -60,7 +60,7 @@ Process _xCnpsWtFEe24R4KEeKcnxg {
   	}
   }
   
-  AtomicSIB _3Nf3kWtFEe24R4KEeKcnxg at 730,170 size 120,108 {
+  AtomicSIB _3Nf3kWtFEe24R4KEeKcnxg at 670,160 size 120,108 {
   	libraryComponentUID "app.demo.checkWin"
   	label "checkWin"
   	ignoredBranch [  ]
@@ -79,11 +79,6 @@ Process _xCnpsWtFEe24R4KEeKcnxg {
   		id _3NuhEWtFEe24R4KEeKcnxg
   		concurrent true
   	}
-  	
-  	-BranchConnector-> _lixFwWtGEe24R4KEeKcnxg   {
-  		id _lixs0WtGEe24R4KEeKcnxg
-  		concurrent true
-  	}
   }
   
   Branch _3Nt6AWtFEe24R4KEeKcnxg at 640,450 size 120,25 {
@@ -93,8 +88,5 @@ Process _xCnpsWtFEe24R4KEeKcnxg {
   		concurrent true
   	}
   }
-  
-  Branch _lixFwWtGEe24R4KEeKcnxg at 521,270 size 120,25 {
-  	name "fail"
-  }
+
 }
