@@ -11,13 +11,26 @@ public class Native {
 		System.out.println("---------------------");
 	}
 	public static void grid() {
-		Long[][] arr = new Long[6][7];	
-		for(int i = 0;i<arr.length;i++) {
-			for(int j = 0;j<arr.length;j++) {
+		Long[] columns = new columns[7];
+		Long[] rows = new rows[6];	
+		for(int i = 0;i<7;i++) {
+			for(int j = 0;j<;j++) {
 				arr[i][j] = 0l;
 			}
 		}
 	}
+/*
+	public static void insert(Board board, Long player, Long index){
+		List<cell>cells = board.getcolumns_Column().get(index.intValue()).getCells_Cell();
+		for(int i = cells.size()- 1;i>=0;i++) {
+			Cell thisCell = cells.get(i);
+			if(thisCell.getValue().equals(0l)) {
+				thisCell.setvalue(player);
+				break;
+			}
+		}
+	}
+*/
 	public static void insert(Long row, Long column,Long[][] arr,boolean turn){
 		Long s;
 		if(turn) {
