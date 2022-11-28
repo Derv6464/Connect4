@@ -4,8 +4,374 @@ GUI _sFHN4GtFEe2_tZffVHfitw {
   additionalJavaScript [  ]
   additionalStylesheets [  ]
   title "Grid"
-  DataContext _sHelYGtFEe2_tZffVHfitw at 10,10 size 180,130 {
+  DataContext _sHelYGtFEe2_tZffVHfitw at 10,10 size 180,729 {
   	dfViewWorkaround true
+  	ComplexVariable _yLy7MWvoEe2HBfIGZDNJTg at 10,50 size 160,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_D3GKMWvnEe2HBfIGZDNJTg"
+  		isInput false
+  		name "rows"
+  		dfViewWorkaround true
+  		isList true
+  	}
+  	
+  	ComplexVariable _JNw6oWvsEe2HBfIGZDNJTg at 10,90 size 160,25 {
+  		expanded true
+  		isLive false
+  		libraryComponentUID "_mPbP0WvoEe2HBfIGZDNJTg"
+  		isInput false
+  		name "board"
+  		dfViewWorkaround true
+  		isList false
+  		-ComplexAttributeConnector-> _LwgkMWvsEe2HBfIGZDNJTg  decorate "Ellipse" at (0,0) {
+  			id _LydE8WvsEe2HBfIGZDNJTg
+  			associationName "rows"
+  		}
+  	}
+  	
+  	ComplexVariable _LwgkMWvsEe2HBfIGZDNJTg at 10,130 size 160,105 {
+  		expanded true
+  		isLive false
+  		libraryComponentUID "_D3GKMWvnEe2HBfIGZDNJTg"
+  		isInput false
+  		name "rows"
+  		dfViewWorkaround true
+  		isList true
+  		ComplexListAttribute _L9G1wGvsEe2HBfIGZDNJTg at 10,23 size 140,25 {
+  			attributeName first
+  			libraryComponentUID "_D3GKMWvnEe2HBfIGZDNJTg"
+  			isLive false
+  		}
+  		
+  		ComplexListAttribute _MArHIGvsEe2HBfIGZDNJTg at 10,50 size 140,25 {
+  			attributeName last
+  			libraryComponentUID "_D3GKMWvnEe2HBfIGZDNJTg"
+  			isLive false
+  		}
+  		
+  		PrimitiveListAttribute _MC9mIWvsEe2HBfIGZDNJTg at 10,77 size 140,25 {
+  			attributeName size
+  			primitiveType Integer
+  			libraryComponentUID "_D3GKMWvnEe2HBfIGZDNJTg"
+  			isLive false
+  		}
+  		-ComplexListAttributeConnector-> _XdJKcWvsEe2HBfIGZDNJTg  decorate "Ellipse" at (0,0) {
+  			id _Xe6sEWvsEe2HBfIGZDNJTg
+  			attributeName current
+  		}
+  	}
+  	
+  	ComplexVariable _XdJKcWvsEe2HBfIGZDNJTg at 10,270 size 160,429 {
+  		expanded true
+  		isLive false
+  		libraryComponentUID "_D3GKMWvnEe2HBfIGZDNJTg"
+  		isInput false
+  		name "current"
+  		dfViewWorkaround true
+  		isList false
+  		ComplexAttribute _XppVYWvsEe2HBfIGZDNJTg at 10,266 size 140,25 {
+  			libraryComponentUID "_D9MDwWvqEe2HBfIGZDNJTg"
+  			isLive false
+  			-IF-> _sVEVcGtFEe2_tZffVHfitw via (211,557) (211,130) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _L82jAWwsEe28tKZHabs1Eg
+  				negate false
+  			}
+  		}
+  		
+  		ComplexAttribute _XppVY2vsEe2HBfIGZDNJTg at 10,293 size 140,25 {
+  			libraryComponentUID "_gykToWvqEe2HBfIGZDNJTg"
+  			isLive false
+  			-IF-> _3DhcMWtFEe2_tZffVHfitw via (209,590) (209,319) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _TrEy8WwsEe28tKZHabs1Eg
+  				negate false
+  			}
+  		}
+  		
+  		ComplexAttribute _Xpp8cWvsEe2HBfIGZDNJTg at 10,320 size 140,25 {
+  			libraryComponentUID "_habk4WvqEe2HBfIGZDNJTg"
+  			isLive false
+  			-IF-> _1z_G8WtFEe2_tZffVHfitw via (212,608) (212,472) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _W8DbgWwsEe28tKZHabs1Eg
+  				negate false
+  			}
+  		}
+  		
+  		ComplexAttribute _Xpp8c2vsEe2HBfIGZDNJTg at 10,347 size 140,25 {
+  			libraryComponentUID "_h1nsEWvqEe2HBfIGZDNJTg"
+  			isLive false
+  			-IF-> _2PHjwWtFEe2_tZffVHfitw via (249,639) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _ZJCQcWwsEe28tKZHabs1Eg
+  				negate false
+  			}
+  		}
+  		
+  		ComplexAttribute _Xpp8dWvsEe2HBfIGZDNJTg at 10,374 size 140,25 {
+  			libraryComponentUID "_ikPFkWvqEe2HBfIGZDNJTg"
+  			isLive false
+  			-IF-> _2r18AGtFEe2_tZffVHfitw via (209,667) (209,857) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _cRZvkWwsEe28tKZHabs1Eg
+  				negate false
+  			}
+  		}
+  		
+  		ComplexAttribute _XpqjgWvsEe2HBfIGZDNJTg at 10,401 size 140,25 {
+  			libraryComponentUID "_jHzssWvqEe2HBfIGZDNJTg"
+  			isLive false
+  			-IF-> _4Z0gwWtFEe2_tZffVHfitw via (209,697) (209,1031) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _e1LT4WwsEe28tKZHabs1Eg
+  				negate false
+  			}
+  		}
+  		
+  		ComplexAttribute _Xpqjg2vsEe2HBfIGZDNJTg at 10,50 size 140,25 {
+  			libraryComponentUID "_pTzfcWvrEe2HBfIGZDNJTg"
+  			isLive false
+  			-IF-> _ysZOcWtGEe2_tZffVHfitw via (217,337) (216,128) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _hi76oWwsEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _u74xQWtGEe2_tZffVHfitw via (212,336) (212,308) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _k7S9kWwsEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _s65w8WtGEe2_tZffVHfitw via (212,341) (212,489) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _qglLEWwsEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _q5KisWtGEe2_tZffVHfitw via (208,337) (208,664) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _t5C7sWwsEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _o1y8wWtGEe2_tZffVHfitw via (210,337) (209,845) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _yPQuAWwsEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _fK0FMWtGEe2_tZffVHfitw via (209,337) (208,1028) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _0h2bsWwsEe28tKZHabs1Eg
+  				negate false
+  			}
+  		}
+  		
+  		ComplexAttribute _XprKkWvsEe2HBfIGZDNJTg at 10,77 size 140,25 {
+  			libraryComponentUID "_rfsvQWvrEe2HBfIGZDNJTg"
+  			isLive false
+  			-IF-> _yadJ4WtGEe2_tZffVHfitw via (216,365) (216,222) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _XcKpgWwtEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _upUakWtGEe2_tZffVHfitw via (216,364) (217,230) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _ZG8wUWwtEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _soGwwWtGEe2_tZffVHfitw via (208,368) (208,528) (208,581) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _1T6VUWwtEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _qoPx0WtGEe2_tZffVHfitw via (206,368) (205,572) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _6JgLQWwtEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _okIlAWtGEe2_tZffVHfitw via (206,368) (205,945) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _-E2mgWwtEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _lG8scGtGEe2_tZffVHfitw via (212,368) (213,936) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _AG8aEWwuEe28tKZHabs1Eg
+  				negate false
+  			}
+  		}
+  		
+  		ComplexAttribute _XprKk2vsEe2HBfIGZDNJTg at 10,104 size 140,25 {
+  			libraryComponentUID "_tUgUwWvrEe2HBfIGZDNJTg"
+  			isLive false
+  			-IF-> _yI11cWtGEe2_tZffVHfitw via (216,396) (216,226) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _YvbywWwuEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _uXS2cWtGEe2_tZffVHfitw via (216,396) (216,233) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _kX7f4WwuEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _sXeTwWtGEe2_tZffVHfitw via (212,396) (212,582) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _oDBRkWwuEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _qRF2EGtGEe2_tZffVHfitw via (206,396) (205,576) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _rOOCQWwuEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _oStd0WtGEe2_tZffVHfitw via (216,396) (216,940) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _t6bw4WwuEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _lbbusGtGEe2_tZffVHfitw via (208,396) (209,940) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _wK27YWwuEe28tKZHabs1Eg
+  				negate false
+  			}
+  		}
+  		
+  		ComplexAttribute _XprKlWvsEe2HBfIGZDNJTg at 10,131 size 140,25 {
+  			libraryComponentUID "_vLGC8WvrEe2HBfIGZDNJTg"
+  			isLive false
+  			-IF-> _xza_EWtGEe2_tZffVHfitw via (216,424) (216,229) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _yv98cWwuEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _uANzMWtGEe2_tZffVHfitw via (221,420) (222,234) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _1JuCEWwuEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _sG0ooWtGEe2_tZffVHfitw via (212,424) (212,574) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _3PW44WwuEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _p49p8WtGEe2_tZffVHfitw via (212,424) (212,572) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _51B6oWwuEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _n_4ocWtGEe2_tZffVHfitw via (205,420) (204,941) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _7sZE4WwuEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _lqMjcWtGEe2_tZffVHfitw via (206,424) (205,930) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _-DQ1oWwuEe28tKZHabs1Eg
+  				negate false
+  			}
+  		}
+  		
+  		ComplexAttribute _XprxoWvsEe2HBfIGZDNJTg at 10,158 size 140,25 {
+  			libraryComponentUID "_xcT3oWvrEe2HBfIGZDNJTg"
+  			isLive false
+  			-IF-> _vw6UwWtGEe2_tZffVHfitw via (220,448) (220,230) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _AmhckWwvEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _tvxjcWtGEe2_tZffVHfitw via (212,448) (212,225) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _DGL88WwvEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _r1Y6YWtGEe2_tZffVHfitw via (213,448) (212,573) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _FKWNEGwvEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _pnXjoWtGEe2_tZffVHfitw via (212,448) (212,570) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _HueWsWwvEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _nvZVYWtGEe2_tZffVHfitw via (212,445) (212,940) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _KQavAWwvEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _l3kREWtGEe2_tZffVHfitw via (210,448) (209,936) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _MRnxwWwvEe28tKZHabs1Eg
+  				negate false
+  			}
+  		}
+  		
+  		ComplexAttribute _Xprxo2vsEe2HBfIGZDNJTg at 10,185 size 140,25 {
+  			libraryComponentUID "_zd8_QWvrEe2HBfIGZDNJTg"
+  			isLive false
+  			-IF-> _vg14cWtGEe2_tZffVHfitw via (212,477) (212,230) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _e8c5MWwvEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _te85MGtGEe2_tZffVHfitw via (217,476) (218,232) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _jSN_kWwvEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _rmSHYWtGEe2_tZffVHfitw via (212,476) (212,577) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _lqWUkGwvEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _pYGYkWtGEe2_tZffVHfitw via (204,476) (204,574) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _o7YAcGwvEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _ncsb0WtGEe2_tZffVHfitw via (212,476) (212,933) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _uDfw0WwvEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _moO5AWtGEe2_tZffVHfitw via (212,476) (212,932) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _xRG8UWwvEe28tKZHabs1Eg
+  				negate false
+  			}
+  		}
+  		
+  		ComplexAttribute _XprxpWvsEe2HBfIGZDNJTg at 10,212 size 140,25 {
+  			libraryComponentUID "_0y_fkWvrEe2HBfIGZDNJTg"
+  			isLive false
+  			-IF-> _vOVMIWtGEe2_tZffVHfitw via (220,500) (220,237) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _9lDaMWwvEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _tMU4IWtGEe2_tZffVHfitw via (220,500) (220,236) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _A1f3QWwwEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _rW3yYWtGEe2_tZffVHfitw via (210,504) (209,572) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _FywbcWwwEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _pHwPcGtGEe2_tZffVHfitw via (210,500) (209,572) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _H-R30WwwEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _nKQoAGtGEe2_tZffVHfitw via (212,504) (212,933) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _LYR5gWwwEe28tKZHabs1Eg
+  				negate false
+  			}
+  			
+  			-IF-> _mY9G4WtGEe2_tZffVHfitw via (209,501) (208,928) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _NcyH4WwwEe28tKZHabs1Eg
+  				negate false
+  			}
+  		}
+  		
+  		ComplexAttribute _XpsYsWvsEe2HBfIGZDNJTg at 10,23 size 140,25 {
+  			libraryComponentUID "_7VC3UWvrEe2HBfIGZDNJTg"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _XpsYs2vsEe2HBfIGZDNJTg at 10,239 size 140,25 {
+  			libraryComponentUID "_CS5XEGvoEe2HBfIGZDNJTg"
+  			isLive false
+  		}
+  	}
   }
   
   Template _sID0MGtFEe2_tZffVHfitw at 240,10 size 1650,1130 {
